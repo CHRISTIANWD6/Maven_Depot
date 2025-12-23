@@ -13,7 +13,7 @@ public class Calculatrice {
         return a * b;
     }
 
-    public double division(int a, int b) {
+    public double division(double a, double b) {
         if (b == 0) {
             System.out.println("Division par zéro interdite");
         }
